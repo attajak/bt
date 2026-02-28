@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  # Bundler
+  # GitHub Actions
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
@@ -15,7 +15,7 @@ updates:
       - "attajak"
     labels:
       - "dependencies"
-  # Yarn
+  # Bundler
   - package-ecosystem: "bundler"
     directory: "/"
     schedule:
@@ -25,7 +25,7 @@ updates:
       - "attajak"
     labels:
       - "dependencies"
-  # Github Actions
+  # NPM
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
