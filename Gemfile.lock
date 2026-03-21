@@ -6,19 +6,19 @@ GEM
     amazing_print (1.8.1)
     base64 (0.3.0)
     bigdecimal (4.0.1)
-    bridgetown (2.1.1)
-      bridgetown-builder (= 2.1.1)
-      bridgetown-core (= 2.1.1)
-      bridgetown-foundation (= 2.1.1)
-      bridgetown-paginate (= 2.1.1)
-    bridgetown-builder (2.1.1)
-      bridgetown-core (= 2.1.1)
-    bridgetown-core (2.1.1)
+    bridgetown (2.1.2)
+      bridgetown-builder (= 2.1.2)
+      bridgetown-core (= 2.1.2)
+      bridgetown-foundation (= 2.1.2)
+      bridgetown-paginate (= 2.1.2)
+    bridgetown-builder (2.1.2)
+      bridgetown-core (= 2.1.2)
+    bridgetown-core (2.1.2)
       addressable (~> 2.4)
       amazing_print (~> 1.2)
       base64 (>= 0.3)
       bigdecimal (>= 3.2)
-      bridgetown-foundation (= 2.1.1)
+      bridgetown-foundation (= 2.1.2)
       csv (~> 3.2)
       erubi (~> 1.9)
       faraday (~> 2.0)
@@ -44,13 +44,13 @@ GEM
       zeitwerk (>= 2.7.3)
     bridgetown-feed (4.0.0)
       bridgetown (>= 1.2.0)
-    bridgetown-foundation (2.1.1)
+    bridgetown-foundation (2.1.2)
       dry-inflector (>= 1.0)
       hash_with_dot_access (~> 2.0)
       inclusive (~> 1.0)
       zeitwerk (~> 2.5)
-    bridgetown-paginate (2.1.1)
-      bridgetown-core (= 2.1.1)
+    bridgetown-paginate (2.1.2)
+      bridgetown-core (= 2.1.2)
     bridgetown-quick-search (3.0.3)
       bridgetown (>= 1.2.0.beta2, < 3.0)
     bridgetown-seo-tag (7.0.1)
@@ -113,7 +113,7 @@ GEM
     psych (5.3.1)
       date
       stringio
-    public_suffix (7.0.2)
+    public_suffix (7.0.5)
     puma (7.2.0)
       nio4r (~> 2.0)
     rack (3.2.5)
@@ -130,7 +130,7 @@ GEM
     reline (0.6.3)
       io-console (~> 0.5)
     rexml (3.4.4)
-    roda (3.101.0)
+    roda (3.102.0)
       rack
     rouge (4.7.0)
     samovar (2.4.1)
@@ -155,7 +155,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bridgetown (~> 2.1.1)
+  bridgetown (~> 2.1.2)
   bridgetown-feed (~> 4.0)
   bridgetown-quick-search (~> 3.0)
   bridgetown-seo-tag (~> 7.0)
@@ -167,12 +167,12 @@ CHECKSUMS
   amazing_print (1.8.1) sha256=f53b4e1881f53f9663cb222840c7a027d0e61d46cc908366965739559c0d6d68
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
-  bridgetown (2.1.1) sha256=92668c942917cc2f3bc12de2a5c2557c7059cb884a46eb4215beb12c17303e9e
-  bridgetown-builder (2.1.1) sha256=cd4b9ef7168b28a41fef69e71a67941b390ab955792f23bb22391fbbf37194b1
-  bridgetown-core (2.1.1) sha256=8fc4d6514aaa4b789a98be868d57459975b9df33e76ad3aef198d0225cad1771
+  bridgetown (2.1.2) sha256=ed59d10f7ccdffc4b4359864fbf36528d26baf65c77743ddfd4b90555aa50c06
+  bridgetown-builder (2.1.2) sha256=01fe585dcab5126a12f66a936b71bb58b61eab074467f0b9ff3dfb45e88f6315
+  bridgetown-core (2.1.2) sha256=4f74ba15bb806f06bcf78fa4750b5a009b78d9b7a0aef5661873df54c31ada89
   bridgetown-feed (4.0.0) sha256=bd41d17f34a8bbaac8db66fe89a91b3959e797a24551ab695e899a89994ae6bb
-  bridgetown-foundation (2.1.1) sha256=c72bd8ec0372f908c289b14cc12467bbfad34e78d47aa7d456f0f6b6eec4aaea
-  bridgetown-paginate (2.1.1) sha256=29e046c69c4911e74b9f1b83944fe8ed5186f807d764f4d70a98a26668d8aa33
+  bridgetown-foundation (2.1.2) sha256=bfa7b45986fb325ab0b3ac0bcb12687a5ce689e56a1c48bbebf326a1e892f6dc
+  bridgetown-paginate (2.1.2) sha256=70b05ab44c09fc6ba3b8433852cc5961ce4f458a3eda3ceeffca893e34bbaa76
   bridgetown-quick-search (3.0.3) sha256=b07007d7d128dc19590c05159fe59140b1f2210cecfe3209151dbd9bd92d186e
   bridgetown-seo-tag (7.0.1) sha256=bc876c646822c392ce14123d111bdc2a62f05f5a14fa86c3d42e269900b02e5b
   bridgetown-sitemap (3.0.1) sha256=936bb5df59e8d950c70bca40ec0cee386c3c57581cb159701b38665067efa8f8
@@ -209,7 +209,7 @@ CHECKSUMS
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
   prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
   psych (5.3.1) sha256=eb7a57cef10c9d70173ff74e739d843ac3b2c019a003de48447b2963d81b1974
-  public_suffix (7.0.2) sha256=9114090c8e4e7135c1fd0e7acfea33afaab38101884320c65aaa0ffb8e26a857
+  public_suffix (7.0.5) sha256=1a8bb08f1bbea19228d3bed6e5ed908d1cb4f7c2726d18bd9cadf60bc676f623
   puma (7.2.0) sha256=bf8ef4ab514a4e6d4554cb4326b2004eba5036ae05cf765cfe51aba9706a72a8
   rack (3.2.5) sha256=4cbd0974c0b79f7a139b4812004a62e4c60b145cba76422e288ee670601ed6d3
   rackup (2.3.1) sha256=6c79c26753778e90983761d677a48937ee3192b3ffef6bc963c0950f94688868
@@ -219,7 +219,7 @@ CHECKSUMS
   rdoc (7.2.0) sha256=8650f76cd4009c3b54955eb5d7e3a075c60a57276766ebf36f9085e8c9f23192
   reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
-  roda (3.101.0) sha256=07b13bb5fbb8f606c17f8c21ae4897f629e59cb6f398665da6666920efd39843
+  roda (3.102.0) sha256=b2156fff6d2b1b52bfac39e4ccde0d820a26594f069c3d9e99cc0853f7ee7dcc
   rouge (4.7.0) sha256=dba5896715c0325c362e895460a6d350803dbf6427454f49a47500f3193ea739
   samovar (2.4.1) sha256=c3b91dd0580771e3bc600621c1111f29542529dcffafaac3b6bf068b3f309e80
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
