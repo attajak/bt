@@ -5,7 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 8.0)
     amazing_print (1.8.1)
     base64 (0.3.0)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.0)
     bridgetown (2.1.2)
       bridgetown-builder (= 2.1.2)
       bridgetown-core (= 2.1.2)
@@ -55,7 +55,7 @@ GEM
       bridgetown (>= 1.2.0.beta2, < 3.0)
     bridgetown-seo-tag (7.0.1)
       bridgetown (>= 1.3)
-    bridgetown-sitemap (3.0.1)
+    bridgetown-sitemap (3.0.2)
       bridgetown (>= 1.3.0, < 3.0)
     concurrent-ruby (1.3.6)
     console (1.34.3)
@@ -75,7 +75,7 @@ GEM
       faraday (>= 1, < 3)
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
-    ffi (1.17.3)
+    ffi (1.17.4)
     fiber-annotation (0.2.0)
     fiber-local (1.1.0)
       fiber-storage
@@ -91,7 +91,7 @@ GEM
       prism (>= 1.3.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.19.2)
+    json (2.19.3)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -166,7 +166,7 @@ CHECKSUMS
   addressable (2.8.9) sha256=cc154fcbe689711808a43601dee7b980238ce54368d23e127421753e46895485
   amazing_print (1.8.1) sha256=f53b4e1881f53f9663cb222840c7a027d0e61d46cc908366965739559c0d6d68
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
-  bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
+  bigdecimal (4.1.0) sha256=6dc07767aa3dc456ccd48e7ae70a07b474e9afd7c5bc576f80bd6da5c8dd6cae
   bridgetown (2.1.2) sha256=ed59d10f7ccdffc4b4359864fbf36528d26baf65c77743ddfd4b90555aa50c06
   bridgetown-builder (2.1.2) sha256=01fe585dcab5126a12f66a936b71bb58b61eab074467f0b9ff3dfb45e88f6315
   bridgetown-core (2.1.2) sha256=4f74ba15bb806f06bcf78fa4750b5a009b78d9b7a0aef5661873df54c31ada89
@@ -175,7 +175,7 @@ CHECKSUMS
   bridgetown-paginate (2.1.2) sha256=70b05ab44c09fc6ba3b8433852cc5961ce4f458a3eda3ceeffca893e34bbaa76
   bridgetown-quick-search (3.0.3) sha256=b07007d7d128dc19590c05159fe59140b1f2210cecfe3209151dbd9bd92d186e
   bridgetown-seo-tag (7.0.1) sha256=bc876c646822c392ce14123d111bdc2a62f05f5a14fa86c3d42e269900b02e5b
-  bridgetown-sitemap (3.0.1) sha256=936bb5df59e8d950c70bca40ec0cee386c3c57581cb159701b38665067efa8f8
+  bridgetown-sitemap (3.0.2) sha256=e2faa0bc77830c23ab3ae9f64c30fe383319d1c5834fcf1154eae6fa333c393b
   concurrent-ruby (1.3.6) sha256=6b56837e1e7e5292f9864f34b69c5a2cbc75c0cf5338f1ce9903d10fa762d5ab
   console (1.34.3) sha256=869fbd74697efc4c606f102d2812b0b008e4e7fd738a91c591e8577140ec0dcc
   csv (3.3.5) sha256=6e5134ac3383ef728b7f02725d9872934f523cb40b961479f69cf3afa6c8e73f
@@ -186,7 +186,7 @@ CHECKSUMS
   faraday (2.14.1) sha256=a43cceedc1e39d188f4d2cdd360a8aaa6a11da0c407052e426ba8d3fb42ef61c
   faraday-follow_redirects (0.5.0) sha256=5cde93c894b30943a5d2b93c2fe9284216a6b756f7af406a1e55f211d97d10ad
   faraday-net_http (3.4.2) sha256=f147758260d3526939bf57ecf911682f94926a3666502e24c69992765875906c
-  ffi (1.17.3) sha256=0e9f39f7bb3934f77ad6feab49662be77e87eedcdeb2a3f5c0234c2938563d4c
+  ffi (1.17.4) sha256=bcd1642e06f0d16fc9e09ac6d49c3a7298b9789bcb58127302f934e437d60acf
   fiber-annotation (0.2.0) sha256=7abfadf1d119f508867d4103bf231c0354d019cc39a5738945dec2edadaf6c03
   fiber-local (1.1.0) sha256=c885f94f210fb9b05737de65d511136ea602e00c5105953748aa0f8793489f06
   fiber-storage (1.0.1) sha256=f48e5b6d8b0be96dac486332b55cee82240057065dc761c1ea692b2e719240e1
@@ -196,7 +196,7 @@ CHECKSUMS
   inclusive (1.1.0) sha256=eb27e7a8bcc3dac12b1db3039c08cb4a3ae3beafa2e29f6ec66c8e87cb75bddb
   io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
   irb (1.17.0) sha256=168c4ddb93d8a361a045c41d92b2952c7a118fa73f23fe14e55609eb7a863aae
-  json (2.19.2) sha256=e7e1bd318b2c37c4ceee2444841c86539bc462e81f40d134cf97826cb14e83cf
+  json (2.19.3) sha256=289b0bb53052a1fa8c34ab33cc750b659ba14a5c45f3fcf4b18762dc67c78646
   kramdown (2.5.2) sha256=1ba542204c66b6f9111ff00dcc26075b95b220b07f2905d8261740c82f7f02fa
   kramdown-parser-gfm (1.1.0) sha256=fb39745516427d2988543bf01fc4cf0ab1149476382393e0e9c48592f6581729
   liquid (5.4.0) sha256=e362448c71cb88683d9c2df2819d7e47da3cdb37f757d0c99e3400d7e0030d40
